@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: currency-converter
-        image: siddhuge/currency-converter:latest
+        image: siddhuge/currency-converter:1.0
         ports:
         - containerPort: 5555
         env:
